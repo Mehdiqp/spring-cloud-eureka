@@ -1,0 +1,11 @@
+#yeseri config vase spring
+spring:
+  application:
+    name: brand-service
+  jpa:
+    show-sql: true
+#eureka server address
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
